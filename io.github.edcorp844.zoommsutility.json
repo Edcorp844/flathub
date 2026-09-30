@@ -21,10 +21,7 @@
             "PATH" : "/usr/lib/sdk/rust-stable/bin:/usr/bin:/bin",
             "RUST_BACKTRACE" : "1",
             "RUST_LOG" : "zoom_ms_utility=debug"
-        },
-        "build-args" : [
-            "--share=network"
-        ]
+        }
     },
     "cleanup" : [
         "/include",
@@ -54,10 +51,11 @@
             "builddir" : true,
             "buildsystem" : "meson",
             "sources" : [
+                "cargo-sources.json",
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/Edcorp844/zoommsutility/archive/refs/tags/v0.1.0.tar.gz",
-                    "sha256" : "279932284f62ec3355572b4d68f86ed159ff95e8cfff2f26afcf63dfb2992880"
+                    "url" : "https://github.com/Edcorp844/zoommsutility/archive/refs/tags/v0.1.2.tar.gz",
+                    "sha256" : "9e28118b5615db7062ec6b7cf3945cb7f786f1004a1d8c5f2a9a1b9c2f2f5557"
                 }
             ]
         }
